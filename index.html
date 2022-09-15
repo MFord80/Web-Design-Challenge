@@ -8,7 +8,7 @@
 
     <style>
         h2 {color:#4baaa5;font-family:'Times New Roman', Times, serif;font-weight:bold;padding:20px;font-stretch: expanded;}
-        h3 {color:#4baaa5;font-family:'Times New Roman', Times, serif;font-weight:bold;padding:20px;font-stretch: expanded;}
+        h3 {color:#4baaa5;font-family:'Times New Roman', Times, serif;font-weight:bold;padding:15px;font-stretch: expanded;}
         p {color:rgb(83, 83, 83); line-height: 30px;}
         .column_two {width: 30%;}
         .row:after {content: ""; display: table; clear: both;}
@@ -20,7 +20,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#" style="color:white;background-color:#4baaa5;padding:10px;font-family:'Times New Roman', Times, serif;font-size: 24px; font-weight:bold;">Latitude</a>
+          <a class="navbar-brand" href="index.html" style="color:white;background-color:#4baaa5;padding:10px;font-family:'Times New Roman', Times, serif;font-size: 24px; font-weight:bold;">Latitude</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" style="border-color:white;background-color:#4baaa5;padding:10px;">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -31,17 +31,17 @@
                       Plots
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="html/temperature.html">Max Temperature</a></li>
-                      <li><a class="dropdown-item" href="html/cloudiness.html">Cloudiness</a></li>
-                      <li><a class="dropdown-item" href="html/humidity.html">Humidity</a></li>
-                      <li><a class="dropdown-item" href="html/windspeed.html">Windspeed</a></li>
+                      <li><a class="dropdown-item" href="visualisations/temperature.html">Max Temperature</a></li>
+                      <li><a class="dropdown-item" href="visualisations/cloudiness.html">Cloudiness</a></li>
+                      <li><a class="dropdown-item" href="visualisations/humidity.html">Humidity</a></li>
+                      <li><a class="dropdown-item" href="visualisations/windspeed.html">Windspeed</a></li>
                     </ul>
                   </li>
               <li class="nav-item">
-                <a class="nav-link" href="html/comparisons.html">Comparison</a>
+                <a class="nav-link" href="visualisations/comparisons.html">Comparison</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="html/data.html">Data</a>
+                <a class="nav-link" href="visualisations/data.html">Data</a>
               </li>
             </ul>
           </div>
@@ -54,7 +54,7 @@
           <div class="col-lg-8">
             <div class="box skyblue"> <h2>Summary: Latitude vs. X</h2>
               <hr>
-                <img src="assets/images/Fig1.png" alt="Caption" width="360" height="240" style="float:left;"><p> The purpose of this project was to analyse how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+                <img src="assets/images/Fig1.png" alt="City Latitude vs Maximum Temperature" width="360" height="240" style="float:left;"><p> The purpose of this project was to analyse how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
                     <br></br>
                 After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualisations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
             </div>
@@ -63,12 +63,11 @@
             <div class="box skyblue"><h3 style="margin-top:10px">Visualisations</h3></div>
             <hr>
             <div class="column_two">
-                <a href="html/temperature.html"><img src="assets/images/Fig1.png" alt="Caption" width="150" height="150" style="position: relative; left: 0px" ></a>
-                <a href="html/cloudiness.html"><img src="assets/images/Fig2.png" alt="Caption" width="150" height="150" style="position: relative; left: 160px; top: -150px"></a>
-                <a href="html/humidity.html"><img src="assets/images/Fig3.png" alt="Caption" width="150" height="150" style="position: relative; left: 0px; top: -150px"></a>
-                <a href="html/windspeed.html"><img src="assets/images/Fig4.png" alt="Caption" width="150" height="150" style="position: relative; left: 160px; top: -300px"></a>
+                <a href="visualisations/temperature.html"><img src="assets/images/Fig1.png" alt="Link to Maximum Temperature" width="150" height="150" style="position: relative; left: 0px" ></a>
+                <a href="visualisations/cloudiness.html"><img src="assets/images/Fig3.png" alt="Link to Cloudiness" width="150" height="150" style="position: relative; left: 160px; top: -150px"></a>
+                <a href="visualisations/humidity.html"><img src="assets/images/Fig2.png" alt="Link to Humidity" width="150" height="150" style="position: relative; left: 0px; top: -150px"></a>
+                <a href="visualisations/windspeed.html"><img src="assets/images/Fig4.png" alt="Link to Windspeed" width="150" height="150" style="position: relative; left: 160px; top: -300px"></a>
           </div>    
-        
     </div>
 
 
