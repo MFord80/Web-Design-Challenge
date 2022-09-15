@@ -9,4 +9,3 @@ h4 {color:#4baaa5;font-family:'Times New Roman', Times, serif;font-weight:bold;p
 p {color:rgb(83, 83, 83); line-height: 30px;}
 
 .column_two {width: 30%;}
-.row:after {content: ""; display: table; clear: both;}
