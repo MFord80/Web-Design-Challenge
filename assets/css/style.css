@@ -1,0 +1,12 @@
+/* Style sheet for Weather Data Visualisation site */
+
+h2 {color:#4baaa5;font-family:'Times New Roman', Times, serif;font-weight:bold;padding:20px;font-stretch: expanded;}
+
+h3 {color:#4baaa5;font-family:'Times New Roman', Times, serif;font-weight:bold;padding:20px;font-stretch: expanded;}
+
+h4 {color:#4baaa5;font-family:'Times New Roman', Times, serif;font-weight:bold;padding:0px;font-stretch: expanded;}
+
+p {color:rgb(83, 83, 83); line-height: 30px;}
+
+.column_two {width: 30%;}
+.row:after {content: ""; display: table; clear: both;}
